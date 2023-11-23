@@ -1,0 +1,33 @@
+.expense-container {
+    background-color: #d0d0d0e1; 
+    border: 1px solid #ccc; 
+    padding: 0px;
+    margin-bottom: 10px;
+    width: 90%;
+}
+
+.expense-container.clickable:hover {
+    background-color: #d9d9d96c;
+}
+
+.expense-container.clickable {
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+}
+
+.expense-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.expense-name {
+    font-size: 1.2em;
+    margin-bottom: 3px; 
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis; 
+}
+
+.expense-date {
+    margin-bottom: 3px;
+}

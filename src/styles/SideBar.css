@@ -1,0 +1,59 @@
+.side-bar-container {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 10%;
+    float: left;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+    max-width: 200px;
+    overflow: auto;
+}
+
+.user-info-container {
+    margin-bottom: 20px;
+}
+
+.user-label {
+    font-size: 1.2em;
+    color: #f39c12;
+    font-weight: bold;
+}
+
+.sidebar-section-labels {
+    background-color: #ffffff76;
+    border-radius: 15px;
+    height: 45px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sidebar-section-labels-clickable {
+    background-color: #ffffff76;
+    border-radius: 15px;
+    height: 45px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+}
+
+.sidebar-section-labels-clickable:hover {
+    background-color: #d0d0d0;
+}
+
+.last-expenses-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

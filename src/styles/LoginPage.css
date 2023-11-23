@@ -1,0 +1,47 @@
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('../images/background.jpg');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.8;
+}
+
+.form-container {
+    background-color: rgb(236, 243, 243);
+    border: solid 1px black;
+    border-radius: 10px;
+    width: 25vw;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-right: 30vw;
+    margin-bottom: 30vh;
+    opacity: 0.9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-group {
+    margin-bottom: 1vh;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    /* Ustawienie odstępu między elementami na ich maksymalną szerokość */
+    align-items: center;
+    /* Wyśrodkowanie w pionie */
+}
+
+.input-box {
+    width: 15vw;
+    height: 20px;
+}
+
+label {
+    margin-right: 10px;
+    flex: 1;
+    /* Ustawienie elastyczności, aby label zajmował dostępną przestrzeń */
+}
